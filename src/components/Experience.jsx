@@ -9,8 +9,9 @@ import { styles } from "../styles";
 import { experiences } from "../constants";
 import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
+import { deployed } from "../assets";
 
-const ExperienceCard = ({ experience }) => (
+const ExperienceCard = ({ experience,dep_link }) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#1d1836 ", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
@@ -21,14 +22,25 @@ const ExperienceCard = ({ experience }) => (
         <img
           src={experience.icon}
           alt="experience.company_name"
-          className="w-[60%] h-[60%] object-contain"
+          className="w-[80%] h-[80%] object-contain"
         />
       </div>
     }
   >
     <div>
-      <h3 className="text-white text-[24px] font-bold ">{experience.title}</h3>
-      <p
+    <div className="flex justify-between">
+    <h3 className="text-white text-[24px] font-bold ">{experience.title}</h3>
+    <div onClick={()=>window.open(dep_link,"_blank")} 
+    className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
+    >
+    <img
+    src={deployed}
+    alt='deployed'
+    className='w-1/2 h-1/2 object-contain '
+    />
+    </div>
+    </div>
+    <p
         className="text-secondary text-[16px] font-semibold"
         style={{ margin: 0 }}
       >
@@ -50,6 +62,7 @@ const ExperienceCard = ({ experience }) => (
 );
 
 const Experience = () => {
+  const deployed_link = 'https://gyaanta.netlify.app/'
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -62,7 +75,7 @@ const Experience = () => {
       <div className="mt-20 flex flex-col ">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} />
+            <ExperienceCard key={index} experience={experience} dep_link = {deployed_link} />
           ))}
         </VerticalTimeline>
       </div>

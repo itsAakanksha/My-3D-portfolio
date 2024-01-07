@@ -18,7 +18,7 @@ const [decal] = useTexture([props.imgUrl]);
  <Float speed={1.75} rotationIntensity={1}
  floatIntensity={2}
  >
- <ambientLight intensity={0.5}/>
+ <ambientLight intensity={0.7}/>
  <directionalLight position={[0,0,0.07]}/>
  <mesh castShadow receiveShadow scale={2.75}
  >

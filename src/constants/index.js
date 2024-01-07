@@ -9,6 +9,9 @@ import {
     css,
     reactjs,
     redux,
+    cpp,
+    python,
+    mysql,
     tailwind,
     nodejs,
     mongodb,
@@ -24,6 +27,9 @@ import {
     tripguide,
     threejs,
     github,
+    giftshop,
+    blogbust,
+    tunify
   } from "../assets";
   
   export const navLinks = [
@@ -70,14 +76,12 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+   
     {
       name: "React JS",
       icon: reactjs,
     },
+   
     {
       name: "Redux Toolkit",
       icon: redux,
@@ -94,21 +98,25 @@ import {
       name: "MongoDB",
       icon: mongodb,
     },
+    // {
+    //   name: "Three JS",
+    //   icon: threejs,
+    // },
     {
-      name: "Three JS",
-      icon: threejs,
+      name: "Python",
+      icon: python,
     },
     {
       name: "git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "mysql",
+      icon: mysql,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "C++",
+      icon: cpp,
     },
   ];
   
@@ -120,8 +128,8 @@ import {
       iconBg: "#383E56",
       date: "June 2023 - Sept 2023",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+        "Developing  an Edtech web applications using React.js and other related technologies.",
+        "Built the Hireus,Course and Courses page from scratch",
         "Implementing responsive design and ensuring cross-browser compatibility.",
         "Participating in code reviews and providing constructive feedback to other developers.",
       ],
@@ -214,14 +222,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: github,
+      image: tunify,
       source_code_link: "https://github.com/itsAakanksha/Tunify/",
-      deployed_link:"musixtunify.000webhostapp.com/",
+      deployed_link:"https://musixtunify.000webhostapp.com/",
     },
     {
       name: "BlogBust",
       description:
-        "BlogBust is a full-stack React.js application that empowers users to seamlessly read, create, and edit blogs. The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. The blog editor is powered by TinyMCE, delivering a rich and user-friendly writing experience.",
+        "BlogBust is a full-stack React.js application that empowers users to seamlessly read, create, and edit blogs. The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. ",
       tags: [
         {
           name: "react",
@@ -236,14 +244,14 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: github,
-      source_code_link: "https://github.com/",
-      deployed_link:"blog-app-j8z5.vercel.app/"
+      image: blogbust,
+      source_code_link: "https://github.com/itsAakanksha/Blog-App",
+      deployed_link:"https://blog-app-d5ob.vercel.app/"
     },
     {
       name: "Gift Shop",
       description:
-        " The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. The blog editor is powered by TinyMCE, delivering a rich and user-friendly writing experience.",
+        "The Gift Shop is an application built on React js and python where you can choose gifts for your loved ones. AI will provide recommendations based on your preferences.",
       tags: [
         {
           name: "React js",
@@ -258,9 +266,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: github,
-      source_code_link: "https://github.com/",
-      deployed_link:"blog-app-j8z5.vercel.app/"
+      image: giftshop,
+      source_code_link: "https://github.com/itsAakanksha/my-gift-shop",
+      deployed_link:"https://aigiftshop.netlify.app/"
     },
   ];
   

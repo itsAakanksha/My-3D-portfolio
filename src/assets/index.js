@@ -7,6 +7,10 @@ import github from "./github.png";
 import deployed from './rocket-launch.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
+import giftshop from './Screenshot 2024-01-07 180100.png'
+import blogbust from './Screenshot 2024-01-07 180006.png'
+import tunify  from './Screenshot 2024-01-07 180028.png'
+
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -18,6 +22,9 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
+import cpp from './c-logo-icon-28389.png'
+import python from './python.png'
+import mysql from './logo-mysql-26300.png'
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
@@ -51,6 +58,9 @@ export {
   nodejs,
   reactjs,
   redux,
+  cpp,
+  python,
+  mysql,
   tailwind,
   typescript,
   threejs,
@@ -61,4 +71,7 @@ export {
   carrent,
   jobit,
   tripguide,
+  giftshop,
+  tunify,
+  blogbust
 };
