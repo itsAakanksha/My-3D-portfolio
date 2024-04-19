@@ -29,7 +29,8 @@ import {
     github,
     giftshop,
     blogbust,
-    tunify
+    tunify,
+    usermanagement
   } from "../assets";
   
   export const navLinks = [
@@ -225,6 +226,28 @@ import {
       image: tunify,
       source_code_link: "https://github.com/itsAakanksha/Tunify/",
       deployed_link:"https://musixtunify.000webhostapp.com/",
+    },
+    {
+      name: "Usermanagement",
+      description:
+        "Usermanagement allows us to define roles on the basis of user and admin",
+      tags: [
+        {
+          name: "ejs",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "express",
+          color: "green-text-gradient",
+        },
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: usermanagement,
+      source_code_link: "https://github.com/itsAakanksha/Admin-Managed-User-Access-and-image-cropping",
+      deployed_link:"https://user-managementt.onrender.com/",
     },
     {
       name: "BlogBust",
