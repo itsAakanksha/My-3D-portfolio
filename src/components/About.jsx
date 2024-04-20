@@ -36,7 +36,7 @@ const About = () => {
    <h2 className={`${styles.sectionHeadText} `}>Overview.</h2>
    </motion.div>
    <motion.p variants={fadeIn("","",0.1,1)} className='text-secondary mt-4 text-[17px] max-w-3xl leading-[30px]' >
-   I am a passionate and skilled Web Developer, I love to build user interfaces and web applications. i have some experiences in frameworks like react js, node js.
+   I am a passionate and skilled Web Developer, I love to build user interfaces and web applications. i have experience in frameworks like react js, node js.
    </motion.p>
 
 
