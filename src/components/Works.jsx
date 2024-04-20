@@ -32,11 +32,15 @@ const ProjectCard=({index , name, description, tags,image,source_code_link,deplo
     <div onClick={()=>window.open(deployed_link,"_blank")} 
     className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
     >
-    <img
-    src={deployed}
-    alt='deployed'
-    className='w-1/2 h-1/2 object-contain '
-    />
+{
+    // <img
+    // src={deployed}
+    // alt='deployed'
+    // className='w-1/2 h-1/2 object-contain '
+    // />
+    
+    }
+    <p>🚀</p>
     </div>
     <div onClick={()=>window.open(source_code_link,"_blank")} 
     className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'

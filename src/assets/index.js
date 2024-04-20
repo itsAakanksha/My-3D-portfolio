@@ -11,6 +11,7 @@ import giftshop from './Screenshot 2024-01-07 180100.png'
 import blogbust from './Screenshot 2024-01-07 180006.png'
 import tunify  from './Screenshot 2024-01-07 180028.png'
 import usermanagement from './Screenshot 2024-04-18 013944.png'
+import feedbackfeat from './Screenshot 2024-04-20 160639.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -74,5 +75,6 @@ export {
   giftshop,
   tunify,
   blogbust,
-  usermanagement
+  usermanagement,
+  feedbackfeat,
 };

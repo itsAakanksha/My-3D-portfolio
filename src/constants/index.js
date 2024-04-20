@@ -30,7 +30,8 @@ import {
     giftshop,
     blogbust,
     tunify,
-    usermanagement
+    usermanagement,
+    feedbackfeat
   } from "../assets";
   
   export const navLinks = [
@@ -230,7 +231,7 @@ import {
     {
       name: "Usermanagement",
       description:
-        "Usermanagement allows us to define roles on the basis of user and admin",
+        " Admins effortlessly create user accounts, while new users enjoy secure logins.  Personalize dashboards with profile pictures and names.  Admins maintain control with account verification and deletion. It Secure, user-friendly access management. ",
       tags: [
         {
           name: "ejs",
@@ -270,6 +271,26 @@ import {
       image: blogbust,
       source_code_link: "https://github.com/itsAakanksha/Blog-App",
       deployed_link:"https://blog-app-d5ob.vercel.app/"
+    },
+
+    {
+      name: "Feedback Feature",
+      description:
+        "BlogBust is a full-stack React.js application that empowers users to seamlessly read, create, and edit blogs. The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+       
+        {
+          name: "bootstrap",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: feedbackfeat,
+      source_code_link:"https://github.com/itsAakanksha/Feedback-Feature",
+      deployed_link: "https://feedback-feature-ten.vercel.app/",
     },
     {
       name: "Gift Shop",
