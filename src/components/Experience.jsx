@@ -11,7 +11,7 @@ import { textVariant } from "../utils/motion";
 import { SectionWrapper } from "../hoc";
 import { deployed } from "../assets";
 
-const ExperienceCard = ({ experience,dep_link }) => (
+const ExperienceCard = ({ experience}) => (
   <VerticalTimelineElement
     contentStyle={{ background: "#1d1836 ", color: "#fff" }}
     contentArrowStyle={{ borderRight: "7px solid #232631" }}
@@ -30,7 +30,7 @@ const ExperienceCard = ({ experience,dep_link }) => (
     <div>
     <div className="flex justify-between">
     <h3 className="text-white text-[24px] font-bold ">{experience.title}</h3>
-    <div onClick={()=>window.open(dep_link,"_blank")} 
+    <div onClick={()=>window.open(experience.link,"_blank")} 
     className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
     >
     <img
@@ -62,7 +62,7 @@ const ExperienceCard = ({ experience,dep_link }) => (
 );
 
 const Experience = () => {
-  const deployed_link = 'https://gyaanta.netlify.app/'
+  // const deployed_link = 'https://gyaanta.netlify.app/'
   return (
     <>
       <motion.div variants={textVariant()}>
@@ -75,7 +75,7 @@ const Experience = () => {
       <div className="mt-20 flex flex-col ">
         <VerticalTimeline>
           {experiences.map((experience, index) => (
-            <ExperienceCard key={index} experience={experience} dep_link = {deployed_link} />
+            <ExperienceCard key={index} experience={experience}  />
           ))}
         </VerticalTimeline>
       </div>

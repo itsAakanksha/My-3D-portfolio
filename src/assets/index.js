@@ -7,11 +7,15 @@ import github from "./github.png";
 import deployed from './rocket-launch.png'
 import menu from "./menu.svg";
 import close from "./close.svg";
-import giftshop from './Screenshot 2024-01-07 180100.png'
+import giftshop from './giftshop.png'
 import blogbust from './Screenshot 2024-01-07 180006.png'
-import tunify  from './Screenshot 2024-01-07 180028.png'
+import tunify  from './tunify.png'
 import usermanagement from './Screenshot 2024-04-18 013944.png'
-import feedbackfeat from './Screenshot 2024-04-20 160639.png'
+import feedbackfeat from './feedback.png'
+import mealPlanner from './mealplanner.png'
+import fitnesTracker from './fitnesstracker.png'
+import emailClient from './emailClient.png'
+import ytlivechat from './ytlivechat.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -74,7 +78,11 @@ export {
   tripguide,
   giftshop,
   tunify,
+  mealPlanner,
+  fitnesTracker,
   blogbust,
   usermanagement,
   feedbackfeat,
+  emailClient,
+  ytlivechat,
 };
