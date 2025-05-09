@@ -13,7 +13,7 @@ import tunify  from './tunify.png'
 import usermanagement from './Screenshot 2024-04-18 013944.png'
 import feedbackfeat from './feedback.png'
 import mealPlanner from './mealplanner.png'
-import fitnesTracker from './fitnesstracker.png'
+import fitnesTracker from './fitnessTracker.png'
 import emailClient from './emailClient.png'
 import ytlivechat from './ytlivechat.png'
 
