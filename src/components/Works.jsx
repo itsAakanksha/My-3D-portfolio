@@ -30,7 +30,7 @@ const ProjectCard=({index , name, description, tags,image,source_code_link,deplo
     
 
     <div onClick={()=>window.open(deployed_link,"_blank")} 
-    className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
+    className='bg-[#2b2929] w-10 h-10 rounded-full flex justify-center items-center cursor-pointer mr-2'
     >
 {
     // <img
@@ -40,7 +40,11 @@ const ProjectCard=({index , name, description, tags,image,source_code_link,deplo
     // />
     
     }
-    <p>🚀</p>
+   <img
+    src={deployed}
+    alt='deploy'
+    className='w-1/2 h-1/2 object-contain '
+    />
     </div>
     <div onClick={()=>window.open(source_code_link,"_blank")} 
     className='black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer'

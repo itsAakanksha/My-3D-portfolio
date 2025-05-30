@@ -32,6 +32,7 @@ import {
     tunify,
     mealPlanner,
     fitnesTracker,
+    localConnector,
     usermanagement,
     feedbackfeat,
     emailClient,
@@ -225,6 +226,37 @@ import {
   
   const projects = [
     {
+      name: "Local Connector",
+      description:
+        "A full-stack social platform enabling neighborhood communities to share posts, recommendations, and events. Features real-time interactions, location-based filtering, user authentication, and responsive design. Includes dark/light theme switching and mobile-optimized interface for seamless community engagement. Users can create posts, reply to discussions, and discover local content.",
+   
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "node js",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "express js",
+          color: "orange-text-gradient",
+        },
+        {
+          name: "mongo db",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: localConnector,
+      source_code_link: "https://github.com/itsAakanksha/Local_Connector",
+      deployed_link:"https://local-connector.vercel.app/",
+    },
+    {
       name: "Fitness Tracker Dashboard",
       description:
         "The Fitness Tracker Dashboard is a web application that allows users to track their fitness activities, set goals, and monitor their progress over time. The dashboard provides a user-friendly interface for logging workouts, viewing statistics, and receiving personalized recommendations.",
@@ -289,7 +321,7 @@ import {
         },
         {
           name: "shadcn",
-          color: "green-text-gradient",
+          color: "violet-gradient",
         }, 
         {
           name: "neon DB",
@@ -363,28 +395,28 @@ import {
       source_code_link: "https://github.com/itsAakanksha/Admin-Managed-User-Access-and-image-cropping",
       deployed_link:"https://user-managementt.onrender.com/",
     },
-    // {
-    //   name: "BlogBust",
-    //   description:
-    //     "BlogBust is a full-stack React.js application that empowers users to seamlessly read, create, and edit blogs. The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. ",
-    //   tags: [
-    //     {
-    //       name: "react",
-    //       color: "blue-text-gradient",
-    //     },
-    //     {
-    //       name: "appwrite",
-    //       color: "green-text-gradient",
-    //     },
-    //     {
-    //       name: "tailwind",
-    //       color: "pink-text-gradient",
-    //     },
-    //   ],
-    //   image: blogbust,
-    //   source_code_link: "https://github.com/itsAakanksha/Blog-App",
-    //   deployed_link:"https://blog-app-d5ob.vercel.app/"
-    // },
+    {
+      name: "BlogBust",
+      description:
+        "BlogBust is a full-stack React.js application that empowers users to seamlessly read, create, and edit blogs. The app integrates with Appwrite for user authentication and employs Redux Toolkit for state management. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "appwrite",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: blogbust,
+      source_code_link: "https://github.com/itsAakanksha/Blog-App",
+      deployed_link:"https://blog-app-d5ob.vercel.app/"
+    },
 
     {
       name: "Feedback Feature",

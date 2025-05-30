@@ -14,6 +14,7 @@ import usermanagement from './Screenshot 2024-04-18 013944.png'
 import feedbackfeat from './feedback.png'
 import mealPlanner from './mealplanner.png'
 import fitnesTracker from './fitnessTracker.png'
+import localConnector from './local-connector.png'
 import emailClient from './emailClient.png'
 import ytlivechat from './ytlivechat.png'
 
@@ -80,6 +81,7 @@ export {
   tunify,
   mealPlanner,
   fitnesTracker,
+  localConnector,
   blogbust,
   usermanagement,
   feedbackfeat,
