@@ -17,6 +17,7 @@ import fitnesTracker from './fitnessTracker.png'
 import localConnector from './local-connector.png'
 import emailClient from './emailClient.png'
 import ytlivechat from './ytlivechat.png'
+import snifsec from './snifsec.png'
 
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
@@ -33,10 +34,16 @@ import python from './python.png'
 import mysql from './logo-mysql-26300.png'
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
+import shopify from './tech/shopify.png'
+import prisma from "./tech/prisma.png";
+import firebase from "./tech/firebase.png";
+import langchain from "./tech/langchain.png";
+import langraph from "./tech/langraph.png";
+import n8n from "./tech/n8n.png";
+import appwrite from "./tech/appwrite.png";
 import threejs from "./tech/threejs.svg";
 
 import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
 import baoiam from "./company/baoiam.jpg";
 import tesla from "./company/tesla.png";
 
@@ -70,6 +77,13 @@ export {
   tailwind,
   typescript,
   threejs,
+
+  prisma,
+  firebase,
+  langchain,
+  langraph,
+  n8n,
+  appwrite,
   meta,
   shopify,
   baoiam,
@@ -87,4 +101,5 @@ export {
   feedbackfeat,
   emailClient,
   ytlivechat,
+  snifsec,
 };

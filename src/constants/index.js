@@ -22,6 +22,12 @@ import {
     baoiam,
     tesla,
     shopify,
+    prisma,
+    firebase,
+    langchain,
+    langraph,
+    n8n,
+    appwrite,
     carrent,
     jobit,
     tripguide,
@@ -37,6 +43,7 @@ import {
     feedbackfeat,
     emailClient,
     ytlivechat,
+    snifsec,
 
   } from "../assets";
   
@@ -57,17 +64,14 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
+      title: "Full-Stack Web Development",
       icon: web,
     },
     {
-      title: "Web Designer",
+      title: "AI & Machine Learning Solutions",
       icon: mobile,
     },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
+  
     
   ];
   
@@ -132,18 +136,32 @@ import {
     {
       title: "FullStack Developer",
       company_name: "Videoit.io",
-      // icon: ,
+      icon: "https://videoit.io/images/Layer_2.svg",
       iconBg: "#383E56",
       date: "June 2024 - Present",
       points: [
         "Engineered a video shopping application integrated with Shopify, enhancing product engagement through interactive video experiences. ",
-        "Developed a Shopify App extension using React.js",
+        "Developed a Shopify App plugin using React.js",
         "Designed and embedded custom analytics dashboards, empowering merchants to gain deep insights into customer behavior and video performance",
       ],
       link:"https://videoit.io/",
     },
     {
-      title: "Web Developer",
+      title: "Frontend Developer Intern",
+      company_name: "Goquest.ai",
+      icon: "https://goquest.ai/favicon.ico",
+      iconBg: "#383E56",
+      date: "May 2024 - June 2024",
+      points: [
+        "Developed dynamic treatment pages for medical health articles.",
+        "Built a responsive layout using Tailwind CSS.",
+        "Improved the SEO of the application.",
+        "Worked with leading founder in healthcare .",
+      ],
+      link:"clinikk-articles.vercel.app"
+    },
+    {
+      title: "Web Developer Intern",
       company_name: "Baoiam pvt ltd",
       icon: baoiam,
       iconBg: "#383E56",
@@ -333,6 +351,28 @@ import {
       deployed_link:"",
     },
     {
+      name: "SnifSec (Freelance Work)",
+      description:
+        "Developed the application for cyber security Company. Understanding the importance of data protection and privacy, I implemented Built end to end website for the agency",
+      tags: [
+        {
+          name: "React",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node js",
+          color: "purple-text-gradient",
+        },
+        {
+          name: "nodemailer",
+          color: "violet-gradient",
+        }, 
+   
+      ],
+      image: snifsec,
+      deployed_link:"https://snifsec.com/",
+    },
+    {
       name: "Youtube Live Chat",
       description:
         "The Youtube Live Chat is a web application that allows users to interact with live streams on Youtube. The application provides features such as sending messages, viewing messages from other users, and managing chat settings.",
@@ -418,25 +458,25 @@ import {
       deployed_link:"https://blog-app-d5ob.vercel.app/"
     },
 
-    {
-      name: "Feedback Feature",
-      description:
-        "The Feedback Feature is a web application that allows users to provide feedback on various topics. It provides an intuitive interface for users to submit their feedback and view responses from the admin. The application is built using React.js and utilizes Redux Toolkit for state management.",
-      tags: [
-        {
-          name: "react",
-          color: "blue-text-gradient",
-        },
+    // {
+    //   name: "Feedback Feature",
+    //   description:
+    //     "The Feedback Feature is a web application that allows users to provide feedback on various topics. It provides an intuitive interface for users to submit their feedback and view responses from the admin. The application is built using React.js and utilizes Redux Toolkit for state management.",
+    //   tags: [
+    //     {
+    //       name: "react",
+    //       color: "blue-text-gradient",
+    //     },
        
-        {
-          name: "bootstrap",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: feedbackfeat,
-      source_code_link:"https://github.com/itsAakanksha/Feedback-Feature",
-      deployed_link: "https://feedback-feature-ten.vercel.app/",
-    },
+    //     {
+    //       name: "bootstrap",
+    //       color: "pink-text-gradient",
+    //     },
+    //   ],
+    //   image: feedbackfeat,
+    //   source_code_link:"https://github.com/itsAakanksha/Feedback-Feature",
+    //   deployed_link: "https://feedback-feature-ten.vercel.app/",
+    // },
     // {
     //   name: "Gift Shop",
     //   description:
@@ -461,4 +501,31 @@ import {
     // },
   ];
   
-  export { services, technologies, experiences, testimonials, projects };
+  export { 
+    services, 
+    technologies, 
+    experiences, 
+    testimonials, 
+    projects,
+    // Individual tech exports for direct import
+    javascript,
+    typescript,
+    python,
+    reactjs,
+    nodejs,
+    mongodb,
+    mysql,
+    git,
+    tailwind,
+    redux,
+    html,
+    css,
+    prisma,
+    firebase,
+    langchain,
+    langraph,
+    n8n,
+    appwrite,
+    shopify,
+    docker
+  };
