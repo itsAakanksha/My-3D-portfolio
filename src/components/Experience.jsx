@@ -34,7 +34,6 @@ const ExperienceCard = ({ experience, index }) => (
     }}
     icon={
       <div className="flex justify-center items-center w-full h-full relative group">
-        <div className="absolute inset-0 bg-gradient-to-r from-purple-500/20 to-pink-500/20 rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         <img
           src={experience.icon}
           alt={experience.company_name}
@@ -51,7 +50,6 @@ const ExperienceCard = ({ experience, index }) => (
             {experience.title}
           </h3>
           <div className="flex items-center gap-2 mt-2">
-            <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full animate-pulse"></div>
             <p className="text-secondary text-[18px] font-semibold">
               {experience.company_name}
             </p>
@@ -85,7 +83,6 @@ const ExperienceCard = ({ experience, index }) => (
               key={`experience-point-${pointIndex}`}
               className="flex items-start gap-3 group"
             >
-              <div className="flex-shrink-0 w-1.5 h-1.5 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full mt-2 group-hover:scale-150 transition-transform duration-300"></div>
               <p className="text-white-100 text-[15px] leading-relaxed tracking-wide group-hover:text-white transition-colors duration-300">
                 {point}
               </p>

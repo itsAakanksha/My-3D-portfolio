@@ -43,6 +43,7 @@ import {
     feedbackfeat,
     emailClient,
     ytlivechat,
+    goquestai,
     snifsec,
 
   } from "../assets";
@@ -68,7 +69,7 @@ import {
       icon: web,
     },
     {
-      title: "AI & Machine Learning Solutions",
+      title: "Building AI Agents and Workflows ",
       icon: mobile,
     },
   
@@ -140,25 +141,26 @@ import {
       iconBg: "#383E56",
       date: "June 2024 - Present",
       points: [
-        "Engineered a video shopping application integrated with Shopify, enhancing product engagement through interactive video experiences. ",
-        "Developed a Shopify App plugin using React.js",
-        "Designed and embedded custom analytics dashboards, empowering merchants to gain deep insights into customer behavior and video performance",
+        "Architected and deployed interactive video shopping platform with Shopify integration using React.js, Node.js, and Express",
+        "Built scalable Shopify App extension serving 500+ merchants with automated deployment pipelines",
+        "Designed real-time analytics system with custom dashboards for video engagement and conversion tracking",
+        "Led technical discussions and mentored junior developers on modern React patterns and state management"
       ],
       link:"https://videoit.io/",
     },
     {
       title: "Frontend Developer Intern",
       company_name: "Goquest.ai",
-      icon: "https://goquest.ai/favicon.ico",
+      icon: goquestai,
       iconBg: "#383E56",
       date: "May 2024 - June 2024",
       points: [
-        "Developed dynamic treatment pages for medical health articles.",
-        "Built a responsive layout using Tailwind CSS.",
-        "Improved the SEO of the application.",
-        "Worked with leading founder in healthcare .",
+        "Developed dynamic medical content pages using React.js with focus on accessibility and user experience",
+        "Implemented responsive design system with Tailwind CSS ensuring consistent UI across desktop and mobile",
+        "Optimized site performance through lazy loading, code splitting, and SEO best practices",
+        "Collaborated with  experts to translate complex medical requirements into user-friendly interfaces"
       ],
-      link:"clinikk-articles.vercel.app"
+      link:"https://clinikk-articles.vercel.app"
     },
     {
       title: "Web Developer Intern",
@@ -167,10 +169,10 @@ import {
       iconBg: "#383E56",
       date: "June 2023 - Sept 2023",
       points: [
-        "Developing  an Edtech web applications using React.js and other related technologies.",
-        "Built the Hireus,Course and Courses page from scratch",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Built core EdTech platform features using React.js, Redux for state management, and RESTful APIs",
+        "Developed modular course management system with reusable components reducing code duplication by 40%",
+        "Implemented comprehensive testing strategy including unit tests and cross-browser compatibility testing",
+        "Participated in agile development process with daily standups, sprint planning, and code review sessions"
       ],
       link:"https://gyaanta.netlify.app"
     },

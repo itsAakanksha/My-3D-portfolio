@@ -46,6 +46,7 @@ import threejs from "./tech/threejs.svg";
 import meta from "./company/meta.png";
 import baoiam from "./company/baoiam.jpg";
 import tesla from "./company/tesla.png";
+import goquestai from "./company/goquestai.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -102,4 +103,5 @@ export {
   emailClient,
   ytlivechat,
   snifsec,
+  goquestai,
 };
