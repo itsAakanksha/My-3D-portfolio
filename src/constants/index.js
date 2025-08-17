@@ -324,7 +324,7 @@ import {
       ],
       image: mealPlanner,
       source_code_link: "https://github.com/itsAakanksha/Meal_Planner_assistent.-",
-      deployed_link:"",
+      deployed_link:"https://make-easy-your-meal-planning-6q9i.vercel.app/",
     },
     {
       name: "Email Client App",
