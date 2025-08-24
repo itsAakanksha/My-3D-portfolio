@@ -142,9 +142,9 @@ import {
       date: "June 2024 - Present",
       points: [
         "Architected and deployed interactive video shopping platform with Shopify integration using React.js, Node.js, and Express",
-        "Built scalable Shopify App extension serving 500+ merchants with automated deployment pipelines",
-        "Designed real-time analytics system with custom dashboards for video engagement and conversion tracking",
-        "Led technical discussions and mentored junior developers on modern React patterns and state management"
+        "Built scalable Shopify App extension serving 10+ merchants with automated deployment pipelines",
+        "Designed  analytics system with custom dashboards for video engagement and conversion tracking",
+      
       ],
       link:"https://videoit.io/",
     },
